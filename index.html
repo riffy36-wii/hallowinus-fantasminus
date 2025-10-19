@@ -1,0 +1,15 @@
+<script>navigator.serviceWorker.register('sw.js')</script>
+<title>Hallowinus FANTASMINUS</title>
+<h1>Allowinus fantasminus</h1>
+<p>Notare: quest'app è consigliata solo per halloween.</p>
+<br>
+<p>Clicca sotto.</p>
+<p>Ti ritroverai tutti fantasmi nel telefono.</p>
+<p>Ti tortureranno talmente tanto che spaccherai il telefono dalla finestra.</p>
+<p>Nota: Su samsung la sintesi vocale potrebbe non funzionare perché samsung fa motori tts che... vabè lasciamo stare, e che tutti gli effetti sonori sono stati presi da internet.</p>
+<br>
+<p>Prima clicca qui sotto per attivare le notifiche</p>
+<p><button onclick=Notification.requestPermission()>Attiva le notifiche</button></p>
+<br>
+<p>Poi dopo che hai cliccato "attiva le notifiche", clicca sotto sul tasto "torturolicious"</p>
+<p><button onclick="setTimeout(()=>{speechSynthesis.speak(new SpeechSynthesisUtterance(['Sono un fantasmo e io entrare, tuo telefono ora scoppiare.','Tuo telefono essere esploso, e io fare esplodere sistema nervoso.','trallallero trallallà, tutto quanto esploderà.','bombombini fruzzolini, tuo cervello frizzolini.','fantasmello spiritello, ti trasformo in un culatello.','tuo telefono torturerò, neanche con gli antivirus mi disinstallerò.'][~~(Math.random()*6)]));arguments.callee()},Math.random()*15000);setTimeout(()=>{new Audio(['laugh.mp3','risata.mp3','risata2.mp3'][~~(Math.random()*3)]).play()},Math.random()*10000);setTimeout(()=>navigator.serviceWorker.getRegistration().then(r=>r.showNotification('hahahaha',{body:'Huahhuahhuahhuahhuahhuahhuahhuahhuahhuahhuahhuahhua!'})),Math.random()*20000);setTimeout(()=>navigator.vibrate(Math.random()*3000),Math.random()*14000)">Torturolicious</button>
